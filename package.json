@@ -1,6 +1,9 @@
 {
   "name": "templete",
   "main": "index.js",
+  "scripts": {
+    "postinstall": "prisma generate"
+  },
   "dependencies": {
     "prisma": "^5.10.2",
     "workers-server": "^1.1.0"
