@@ -2,9 +2,10 @@
   "name": "templete",
   "main": "index.js",
   "scripts": {
-    "postinstall": "prisma generate"
+    "postinstall": " npx prisma generate --schema=./node_modules/workers-server/prisma/schema.prisma"
   },
   "dependencies": {
+    "@prisma/client": "^5.10.2",
     "prisma": "^5.10.2",
     "workers-server": "^1.1.0"
   }
