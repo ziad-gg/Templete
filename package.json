@@ -2,6 +2,6 @@
   "name": "templete",
   "main": "index.js",
   "dependencies": {
-    "workers-server": "^1.2.2"
+    "workers-server": "^1.2.4"
   }
 }
